@@ -1,4 +1,4 @@
-package com.nasduck.duckupdate;
+package com.nasduck.duckupdate2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.nasduck.duckupdate", appContext.getPackageName());
+        assertEquals("com.nasduck.duckupdate2.test", appContext.getPackageName());
     }
 }
